@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <!--
+       Author: Fahad Murtaza	
+	   Date:  Jan 25,2016
+1) Same format as the home page 
+2) Gallery of images added with some text history 
+3) every thing is the same (eg the same links on the adds nad tabs.)
+   -->
+
+      <meta charset="UTF-8" />
+       
+      <title>Manchester_United</title>
+       
+     
+	  <link rel = "stylesheet" type="text/css" href="main.css">
+       <link rel = "stylesheet" type="text/css" href="mobile.css" media="only screen and (max-width: 500px)" />
+        
+       <script language="JavaScript">
+                  var i = 0;
+                  var path = new Array();
+
+    // LIST OF IMAGES
+    
+                  path[0] = "Images/History/1.jpeg";
+                  path[1] = "Images/History/2.jpeg";
+                  path[2] = "Images/History/4.jpeg";
+                  path[3] = "Images/History/5.jpeg";
+                  path[4] = "Images/History/6.jpeg";
+                  path[5] = "Images/History/7.jpeg";
+                  path[6] = "Images/History/8.jpeg";
+                  path[7] = "Images/History/9.jpeg";
+                  path[8] = "Images/History/10.jpeg";
+                  path[9] = "Images/History/11.jpeg";
+                  path[10] = "Images/History/12.jpeg";
+                  path[11] = "Images/History/13.jpeg";
+                  path[12] = "Images/History/14.jpeg";
+                  path[13] = "Images/History/15.jpeg";
+                  path[14] = "Images/History/16.jpeg";
+                  path[15] = "Images/History/17.jpeg";
+                  path[16] = "Images/History/18.jpeg";
+
+
+    
+                 function swapImage()
+
+                  {
+                      document.slide.src = path[i];
+   
+                      if(i < path.length - 1) i++; else i = 0;
+  
+                      setTimeout("swapImage()",1000);
+
+                  }
+                  
+
+                  window.onload=swapImage;
+              </script>
+    
+          
+      
+   
+    </head>
+
+   <body>
+      <div id="container">
+         <header>
+        <img src="Images/Manchester_United.png" width="320" height="38"alt="Red Ball Pizza" usemap="#home"> 
+        
+        <map name="home">
+        <area shape="rect" coords="0,0,329,38" href="redball.htm" alt="home">
+        </map>
+            
+    
+        <a href="http://www.addidas.com"target="_blank">   
+        <img id="img2" src="Images/corner.png" alt="Addidas" > 
+        </a>
+         
+        <a href= "http://www.aon.com/empowerresults/ "target="_blank">  
+        <img id="img2" src="Images/corner2.png" alt="Addidas" > 
+        </a>
+             
+        <a href="http://www.chevrolet.ca"target="_blank">   
+        <img id="img2" src="Images/corner3.png" alt="Addidas" > 
+        </a>
+             
+          </header>
+        
+         <nav class="horizontal">
+            <ul>
+               <li><a href="index.htm">Home</a></li>
+               <li><a href="Results.htm">TOUR 2016</a></li>
+               <li><a href="Players.htm">Players</a></li>
+               <li><a href="Stadium.htm" >Stadium</a></li>
+               <li><a href="Shop.htm">Shop</a></li>
+               
+            </ul>
+         </nav>
+
+         <nav class="vertical">
+            <ul>
+               <li>id="d1"<a href="main.htm">Home</a></li>
+               <li><a href="https://secure.manutd.com/en/Login-and-Sign-Up.aspx"target="_blank">Login & sign up</a></li>
+               <li><a href="#">Fan page</a></li>
+               <li><a href="http://www.manutd.com/en/News-And-Features.aspx"target="_blank">News</a></li>
+               <li><a href="Players.htm">Players & staff</a></li>
+               <li><a href="http://www.manutd.com/en/Visit-Old-Trafford.aspx"target="_blank">Stadium Tour</a></li>
+                <li><a href="Shop.htm">Shop</a></li>    
+               <li><a href="contact-Us.htm">Contact Us</a></li>
+               <li><a href="History.htm">History</a></li>
+            
+            <a href="http://www.addidas.com"target="_blank">    
+            <img src="Images/Addidas.png" alt="Old Trafford1 " />
+            </a>
+            <a href="http://www.chevrolet.ca"target="_blank">  
+            <img src="Images/cheverlet.png" alt="Old Trafford1 " />
+            </a>
+            <a href= "http://www.premierleague.com/en-gb.html"target="_blank"> 
+            <img src="Images/Barclays.png" alt="Old Trafford1 " />
+            </a>
+            <a href= "http://www.aon.com/empowerresults/ "target="_blank">
+            <img src="Images/Aon.png" alt="Old Trafford1 " />
+            </a> 
+            </ul>
+         </nav>
+        
+          
+        <aside>
+            <ul>
+               <li2>
+                    <a href= "https://twitter.com/manutd\"target="_blank">
+                    <img src="Images/Twiter.png" alt="Old Trafford2 " />
+                    </a>
+                   
+                    <a href = "https://www.instagram.com/manchesterunited/?hl=en"target="_blank">
+                    <img src="Images/instagram.png" alt="Old Trafford2 " />
+                    </a>
+                   <a href= "https://vine.co/ManUtd"target="_blank">
+                    <img src="Images/ping.png" alt="Old Trafford2 " />
+                   </a>
+               </li2>
+                    
+                <li>
+                    <a href="http://www.addidas.com"target="_blank">
+                    <img src="Images/side.jpeg" alt="Old Trafford2 " />
+                    </a>
+                </li>
+                 
+            </ul>
+         </aside>
+
+    
+        
+             
+    
+         <section id="main7">
+          
+    
+              <div id="history">
+                <img  name="slide" src="Images/History/1.jpeg"  height=375 width="590"/>
+              </div>
+            
+             <p>You may not have heard of them, but without Davies and Leitch, the largest stadium in British club football could never have been built and United's historic home, which has staged so many great triumphs, simply would not exist.
+             </p>
+             <p>United were at a perilously low ebb as the 1930s dawned. While the worldwide economic depression kicked in, the Reds were on the verge of bankruptcy, the team continued to deteriorate and Old Trafford could no longer claim to be the top club ground in the country, having been made to look increasingly ordinary by plush developments at the homes of enterprising rivals.
+             </p>
+        
+
+             <p>But just as oblivion beckoned, United were saved by the intervention of local benefactor James Gibson. He couldn't prevent relegation from the top flight at the end of a dire 1930/31 campaign, but his cash and confidence heralded a new era epitomised by the much-needed covering in 1934 of the popular United Road terrace, now the site of the majestic Sir Alex Ferguson Stand.</p>
+             <p>As Matt Busby's third great United team surged from strength to strength during the 1960s, Old Trafford underwent a radical transformation. Not only did the ground's costly and fashionable facelift reflect the optimism of the decade, but it was the forging of the luxurious stadium we sit in today.</p>
+    
+    </section>
+      
+        
+       
+         <footer>
+            <address>
+               Sir Matt Busby Way, Manchester M16 0RA, United Kingdom
+            </address>
+         </footer>
+      </div>
+   </body>
+</html>

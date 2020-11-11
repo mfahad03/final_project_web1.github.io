@@ -1,0 +1,64 @@
+header,header img head, section,aside,footer,nav.vertical, section#main  {
+	display:none;
+}
+body {
+    
+    background-image:url(Images/Background/R.jpeg);
+    background-size: cover;
+}
+
+/* Header styles */
+
+
+  nav.horizontal {
+    width:100px;
+  }
+
+   nav.horizontal  li {
+   background: url(Images/arrow.png) right center no-repeat;
+   width: 200%;
+   height: 50px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left:55px;
+   margin-right:auto;
+   border-width:1px;
+   border:solid;
+   border-color: white;
+       
+}
+
+   nav.horizontal  li a {
+    display: block;
+	 width: 100%;
+	 height: 50px;
+	 color: white;
+	 text-align: center;
+  }
+
+   nav.horizontal  li:nth-of-child(odd){
+	   background-color: red;
+  }
+
+  nav.horizontal  li:nth-of-child(even){
+	   background-color: red;
+  }
+  
+/* Styles under landscape orientation */
+@media screen and (orientation: landscape){
+
+     nav.horizontal  li {
+	float: left;
+	width: 100%;
+    margin-left: 55px;
+	
+	}
+}
+
+
+
+
+
+
+
+
